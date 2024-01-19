@@ -1,0 +1,19 @@
+.slick-slider {
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.slick-item {
+    width: 104px;
+}
+
+.slick-item img {
+    width: 100px;
+    height: auto;
+}
+
+.slick-item-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
