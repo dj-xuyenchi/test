@@ -1,10 +1,13 @@
 package com.example.test.model;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
+
+import java.util.Set;
 
 @Getter
 @Setter
@@ -21,7 +24,9 @@ public class Product {
     private String link;
     private Double price;
     private Integer sold;
-    private Integer rated;
+    private Double rated;
     private String description;
-
+    @OneToMany(mappedBy = "product")
+    @JsonIgnore
+    private Set<ProductImage> productImageSet;
 }

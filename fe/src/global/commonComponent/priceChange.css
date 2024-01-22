@@ -1,0 +1,22 @@
+.btn-price-change {
+    width: 80px;
+    height: 28px;
+    background-color: #FCE7F3;
+    border-radius: 5px;
+    flex-direction: row;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    font-size: 0.75rem;
+    color: #dc2626;
+    font-weight: 700;
+}
+
+.btn-price-change-icon {
+    display: inline;
+}
+
+.btn-price-change .price {
+    line-height: 30px;
+    margin-left: 2px;
+}

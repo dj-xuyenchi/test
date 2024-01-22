@@ -1,0 +1,18 @@
+.btn-go-buy {
+    height: 44px;
+    width: 150px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-go-buy .btn-go-buy-icon {
+    margin-left: 8px;
+    font-size: 16px;
+}
+
+.btn-go-buy span {
+    line-height: 30px;
+}
